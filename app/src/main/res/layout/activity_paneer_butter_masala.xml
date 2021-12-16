@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5981b2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="261dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/pbm" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="PANEER BUTTER MASALA RECIPE"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* Oil/Ghee \n* Onions \n* Rice \n* Cut up,skinless chicken \n* Whole spices \n* Garlic + Ginger \n* Tomatoes \n* Yogurt"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="HOW TO MAKE PANEER BUTTER MASALA - 2 MAIN STEPS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1:Making gravy base:"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, in a large kadai heat 2 tbsp oil and 2 tbsp butter.
+Add 5 cloves, 2 pods cardamom and saute on low flame until it turns aromatic.
+Now add 2 onion, 2 clove garlic, 1 inch ginger.
+Saute until onions shrink slightly.
+Further add 3 tomato, 15 cashew and saute for 2 minutes.
+Cover and boil for 10 minutes, or until tomato softens.
+Cool completely and transfer to the blender and blend to smooth paste.
+Pass the curry to the filter to get rid of seeds and skin.
+Smooth and silky, the tomato-onion paste is ready. keep aside."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2:Making paneer butter masala"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, in a large kadai heat 2 tbsp oil, 2 tbsp butter, 1 bay leaf and 1 chilli. saute until the spices turn aromatic.
+Now add 1 onion and saute until onions turn and golden brown.
+Keeping the flame on low, add ½ tsp turmeric, 1 tsp chilli powder, ¾ tsp coriander powder, ¼ tsp cumin powder, ½ garam masala and 1 tsp salt.
+Saute until the spices turn aromatic. make sure not to burn the spices.
+Add in prepared onion tomato paste and mix well.
+Cook until the oil separates from the masala paste.
+Now add 1 cup water and mix well adjusting the consistency.
+Further, add in 2 tbsp cream and mix well.
+Also, add 16 cubes of paneer and mix gently.
+Simmer for 5 minutes, or until the paneer absorbs the flavour.
+Add 1 tsp kasuri methi and 2 tbsp coriander. mix well.
+Finally, enjoy paneer butter masala with roti or naan."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIf you have any doubts , Please message us and we will get back to you ASAP "
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etdoubt"
+                android:hint="Type Here ..."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsend"
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nor else, please feel free to call our chef .."
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home Screen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

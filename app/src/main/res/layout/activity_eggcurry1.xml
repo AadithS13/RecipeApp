@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eggcurry1"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:text="Egg Curry"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/flipper"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* 4-5 boiled eggs \n* Oil \n* Onions \n* Green chilli \n* Ginger garlic paste \n* salt \n* water \n* coriander leaves \n* kasuri methi \n* sugar \n* cream \n* bay leaf \n* cinnamon, cardamom, cloves \n* red chilli powder \n* garam masala \n* coriander powder"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="HOW TO MAKE EGG CURRY -
+               3 MAIN STEPS"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Step1: Prepare Eggs"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="10dp"
+                android:text=" Heat oil in a nonstick pan and saute the eggs until golden. Remove the eggs to a plate and sprinkle 2 to 3 pinches of chilli powder. "
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                />
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Step 2: Curry Preparation"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="And more oil. Saute cumin, bay leaf, cardamoms and cloves. Add and fry the onion and chilli until golden.
+Add ginger garlic paste and saute until the raw smell goes off. Add tomatos and saute util mixture turns mushy. Add red chilli powder, garam masala, coriander powder, turmeric, sugar and salt.
+Fry everything well. Pour water as needed. Cook until curry thickens and oil separates. Check and adjust salt as needed. Add eggs and kasuri methi."
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager2"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Step 3: Final Step and garnish"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="10dp"
+                android:text="Pour cream into curry, cover and cook for 3 to 3 minutes. Sprinkles coriander leaves"
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager3"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serve warm with Roti, naan or plain rice"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

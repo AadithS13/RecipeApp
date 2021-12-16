@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5981b2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="261dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/er" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="EGG ROAST RECIPE"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* Oil/Ghee \n* Onions \n* Rice \n* Cut up,skinless chicken \n* Whole spices \n* Garlic + Ginger \n* Tomatoes \n* Yogurt"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="HOW TO MAKE EGG CURRY - 2 MAIN STEPS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1:Making Perfect Hard Boiled Egg"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The egg needs to be fresh. If the eggs are older, then I often find it becomes difficult to peel them. Put eggs in a pan, cover with water. Bring it to a boil and boil for 6-7 minutes. Using a slotted spoon remove and put it in cold water. Once the temperature comes down and is easy to handle, peel the eggs."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2:Making Spicy Egg Curry"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The procedure for making this egg curry is just like any other curry. It starts with making the onion tomato base.
+
+Most of the egg curries don't call for frying egg before adding it to the gravy. But I love to toast eggs until some brown patches appear. It enhances the flavour. Toss egg in a little salt, turmeric and chilli powder. Add in very hot oil and toss it until you see small brown patches.
+
+To the same pan add butter and fry dry red chilli until smokey. Saute onion until it is softened and start to brown. Sauteeing onion to the right stage is very important. Raw bite of onion in the gravy is not pleasant to experience. Next, add ginger garlic paste and saute until the raw smell is gone.
+
+Add all the spice powder except garam masala and salt. Saute until the mixture is fragrant. Keep an eye in this step. You can also mix the dry spice in ¼ cup of water and add to the pan. Sauteing dry spices in the oil helps release flavour.
+
+Add chopped tomatoes and saute until the mixture comes together. Add green chilli and crushed Kasuri methi."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIf you have any doubts , Please message us and we will get back to you ASAP "
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etdoubt"
+                android:hint="Type Here ..."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsend"
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nor else, please feel free to call our chef .."
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home Screen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

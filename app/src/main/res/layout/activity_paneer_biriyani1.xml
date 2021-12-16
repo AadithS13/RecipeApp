@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaneerBiriyani1"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                android:text="PANEER BIRIYANI RECIPE"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/flipper"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* Curd \n* Ginger garlic paste \n* Turmeric \n* Kashmiri red chilli powder \n* biriyani masala \n* coriander \n* pudina \n* Yogurt \n* oil \n* lemon juice \n* salt \n* paneer \n* onion \n* capsicum \n* cardamom, cloves, cinnamon \n* pepper \n* basmati rice \n* jeera \n* tomato"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="HOW TO MAKE PANEER BIRYANI -
+               3 MAIN STEPS"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:text="Step1: Marination Paneer"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="10dp"
+                android:text=" In a large bowl take 1 cup curd, 1 tsp ginger garlic paste, ¼ tsp turmeric, ¾ tsp chilli powder and 2 tbsp biryani masala. Add 2 tbsp coriander, 2 tbsp mint, 1 tsp oil, 1 tbsp lemon juice and 1 tsp salt. Whisk combine well making sure the spices are well combined. Add 15 cubes paneer, ½ onion and ½ capsicum. Mix gently making sure everything is combined well. Cover Marinate for 30 minutes. "
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"
+                />
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Step 2: Biriyani rice Preparation"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="In a large vessel take 6 cup water. Add spices like 2 pods cardamom, 4 cloves, 1 inch cinnamon, 2 bay leaf, ½ tsp pepper. Also add 1 tsp salt, 2 tsp oil and 1 chilli.
+Boil for 2 minutes or until flavours is in the water. Add in 1 cup basmati rice and stir well. make sure to soak rice for at least 20 minutes. Boil for 3 minutes or until rice is half cooked. Do not cook fully. Drain off the rice and keep aside."
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager2"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:text="Step 3: Paneer Biriyani Preparation"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:layout_marginLeft="10dp"
+                android:text="In a large kadai heat 2 tbsp oil and 1 tsp ghee.
+                Saute 2 bay leaf, 1 star anise, 1 pod black cardamom, 1 mace, 2 pods cardamom and 1 tsp shah jeera.
+Add ½ onion and saute until it turns golden brown.
+Add 1 tomato and saute until it turns soft and mushy.
+Add in marinated paneer and saute well.
+Saute until the oil separates from sides. do not overcook as paneer turns rubbery.
+Spread prepared rice uniformly.
+Also top with 2 tbsp coriander, 2 tbsp mint and 2 tbsp fried onion.
+Sprinkle pinch biryani masala, 2 tbsp saffron milk, 1 tsp ghee and ¼ cup water.
+Cover with aluminium foil and close the lid. you can also use the dough to seal.
+Simmer for 20 minutes or until rice is cooked fully.
+Enjoy paneer biryani with raita and slices of onion."
+                android:textColor="@color/black"
+                android:layout_marginTop="7dp"
+                android:textSize="18dp"/>
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:id="@+id/mypager3"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Serve warm with raita"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:fontFamily="casual"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

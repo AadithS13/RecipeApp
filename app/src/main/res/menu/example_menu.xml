@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_person_dark"
+        android:title="Account"
+        app:showAsAction="always"
+        android:id="@+id/account"/>
+
+        <item
+            android:icon="@drawable/ic_more"
+            android:title="More"
+            app:showAsAction="ifRoom">
+            <menu>
+
+
+                <item
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings"
+                    app:showAsAction="always"
+                    android:id="@+id/settings"/>
+
+                <item
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="About Us"
+                    app:showAsAction="always"
+                    android:id="@+id/aboutUs"/>
+
+                <item
+                    android:icon="@drawable/ic_phone"
+                    android:title="Contact Us"
+                    app:showAsAction="always"
+                    android:id="@+id/contactUs" />
+                <item
+                    android:icon="@drawable/ic_baseline_exit"
+                    android:title="Log Out"
+                    app:showAsAction="always"
+                    android:id="@+id/logout"/>
+            </menu>
+
+        </item>
+
+
+
+</menu>

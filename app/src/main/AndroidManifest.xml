@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aadithsuresh10.recipeapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="Kitchen Stories"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RecipeApp">
+        <activity android:name=".Payasam"></activity>
+        <activity android:name=".VanillaMillkshake1" />
+        <activity android:name=".Eggcurry1" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".PaneerBiriyani1" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ContactUS" />
+        <activity android:name=".NewPassword" />
+        <activity android:name=".ReadOTP" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".Sweets" />
+        <activity android:name=".UserAccount" />
+        <activity android:name=".LemonMeringueMilkshake" />
+        <activity android:name=".BoozyBananaMilkshake" />
+        <activity android:name=".ChocolateBananaMilkshake" />
+        <activity android:name=".VanillaMilkshake" />
+        <activity android:name=".Milkshakes" />
+        <activity android:name=".PepperChicken" />
+        <activity android:name=".EggRoast" />
+        <activity android:name=".EggCurry" />
+        <activity android:name=".EggDishes" />
+        <activity android:name=".ChickenKolapuri" />
+        <activity android:name=".GobiManchurian" />
+        <activity android:name=".DalMakhani" />
+        <activity android:name=".PaneerButterMasala" />
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".Nveg" />
+        <activity android:name=".VegDishes" />
+        <activity android:name=".PaneerBiriyani" />
+        <activity android:name=".ChickenBiriyani" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

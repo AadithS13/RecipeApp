@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5981b2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="261dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/ckol" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="CHICKEN KOLHAPURI RECIPE"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* Oil/Ghee \n* Onions \n* Rice \n* Cut up,skinless chicken \n* Whole spices \n* Garlic + Ginger \n* Tomatoes \n* Yogurt"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="HOW TO MAKE CHICKEN KOLHAPURI - 6 MAIN STEPS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1:Wash the chicken"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To make this easy Kolhapuri chicken recipe, begin with washing the chicken in running water."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2:Dry roast poppy seeds, sesame seeds and coconut"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In the meantime take another pan and heat it on medium flame. Then dry roast the sesame seeds and poppy seeds together and keep aside. Then dry roast the coconut and keep aside."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3:Marinate the chicken pieces"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Now, mix 1 1/2 teaspoon of ginger and garlic paste along with turmeric powder and salt in a large bowl. Now add the chicken pieces and rub well until the pieces are evenly coated. Keep aside for about 45 to 60 minutes so that the chicken pieces are well-marinated."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 4:Stir fry onions with prepare onion-seeds paste"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Then take a chopping board and finely chop the onions and fry half of them until they turn golden brown. Remove from the flame, and mix the onions with roasted coconut, sesame seeds and poppy seeds. Grind into a fine paste."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 5:Saute remaining onions, ginger-garlic paste and spices"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heat oil in a heavy-bottomed pan. Add the remaining onions and saute for another 30 to 45 seconds. Add the remaining ginger and garlic paste, and saute until onions turn golden brown. Then add the red chilli powder, tomatoes and cook for 2 to 3 minutes"
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 6:Add the marinated chicken, onion-seeds paste and cook on low flame"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add the marinated chicken pieces and cook for a minute more. Then add the ground paste, salt and some water. Mix well and bring it to a boil. Add the garam masala powder, coriander leaves and cover the pan with a lid. Reduce the flame and cook for about 15 to 25 minutes or until the chicken is fully cooked. Serve the Kolhapuri chicken with rice, roomali roti or naan."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIf you have any doubts , Please message us and we will get back to you ASAP "
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etdoubt"
+                android:hint="Type Here ..."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsend"
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nor else, please feel free to call our chef .."
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home Screen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5981b2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="261dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/gm" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="GOBI MANCHURIAN"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* ½ cup maida / plain flour / refined flour \n* 2 tbsp corn flour \n* 1 tbsp ginger-garlic paste / adrak-lasun ki paste
+\n* 1 tsp kashmiri red chili powder / lal mirch powder\n
+* salt to taste\n
+* 1 tsp soy sauce\n
+* water as required (to prepare batter)\n
+* 2 cups gobi / cauliflower (florets - boiled 1 minute)\n
+* oil for deep frying\n
+* 2 tsp oil\n
+* 2 cloves garlic / lasun (finely chopped)\n
+* ½ cup spring onions (finely chopped)\n
+* 1 tbsp chili sauce\n
+* 1 tbsp tomato sauce\n
+* ½ tsp pepper (crushed)\n
+* 1 tbsp soy sauce\n
+* 1 tbsp vinegar\n
+* salt to taste\n
+* 2 tsp cornflour\n
+* 1 cup water\n"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="HOW TO MAKE GOBI MANCHURIAN "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1: MAKING GOBI MANCHURIAN"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, in a large mixing bowl take maida and corn flour.
+Further add ginger garlic paste, chili powder, salt and soy sauce.
+Add water as required and make a smooth batter.
+Now add in boiled gobi florets and deep fry in hot oil till they turn golden brown.
+Drain off the gobi over a kitchen towel to remove excess oil. keep aside.
+In a large kadai heat oil and saute garlic on high flame.
+Further saute spring onion and capsicum.
+Additionally add chili sauce, tomato sauce, soy sauce, vinegar, crushed pepper and salt.
+Mix well and saute for a minute.
+Add corn flour water and stir well till they turn translucent.
+Additionally, add fried gobi.
+Mix gently making sure the sauce has coated well uniformly.
+Finally, transfer to a serving bowl and garnish with chopped spring onions green. serve with fried rice."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                />
+
+
+
+
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIf you have any doubts , Please message us and we will get back to you ASAP "
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etdoubt"
+                android:hint="Type Here ..."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsend"
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nor else, please feel free to call our chef .."
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home Screen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

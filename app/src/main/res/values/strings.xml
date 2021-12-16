@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="aadith_suresh"><a href="https://www.linkedin.com/in/aadith-s-a504081b6/">1.Aadith Suresh</a></string>
+    <string name="akshara_s_nair"><a href="https://www.linkedin.com/in/akshara-s-nair-8319161aa/">2.Akshara S Nair</a></string>
+    <string name="gokuldas_d"><a href="https://www.instagram.com/gokuldasdevadas/">3.Gokuldas D</a></string>
+    <string name="radhika_rajalal"><a href="https://www.linkedin.com/in/radhika-rajalal-b8a9ab214/">4.Radhika Rajalal</a></string>
+    <string name="title_activity_main4">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main45">Main4Activity5</string>
+    <string name="title_activity_navigation1">Navigation1</string>
+    <string name="title_activity_another">AnotherActivity</string>
+    <string name="title_activity_nav1">Nav1</string>
+    <string name="title_activity_navigation_drawer">Navigation_Drawer</string>
+
+</resources>

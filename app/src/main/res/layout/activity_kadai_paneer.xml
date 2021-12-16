@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5981b2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="261dp"
+                android:padding="8dp"
+                app:srcCompat="@drawable/kp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="KADAI PANEER"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="INGREDIENTS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="* Coriander seeds \n* Cumin/Jeera \n* Black Pepper \n* dried kashmiri red chilli \n* oil \n* Garlic + Ginger \n* Onion \n* Tomatoes \n* butter \n* bay leaf
+				\n* green chilli \n* kasuri methi \n* capsicum \n*turmeric \n* water \n* paneer \n* cream \n* garam masasla \n* coriander leaves"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"
+                android:text="HOW TO MAKE KADAI PANEER - 3 MAIN STEPS"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step1:Kadai Masala"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, dry roast 2 tsp coriander seeds, 1 tsp cumin seeds, ½ tsp black peppers and 3 dried red chillis. Fry till they turn aromatic.
+			Allow to cool and coarsely powder them in a mixer. Keep aside."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 2:Tomato-Onion Paste"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, in a kadai, roast 3 clove garlic and 1 inch ginger with 2 tsp of oil. Fry for a minute.
+Next add chopped 1 sliced onions and fry till they turn golden brown.
+In addition, add 2 chopped tomatoes, 5 cashew and saute well.
+Saute until the tomatoes turn soft and mushy.
+Cool completely and blend to smooth paste without adding any water. Keep aside."
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Step 3:Paneer Kadai"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Firstly, in a large kadai, heat 1 tbsp butter and saute 1 bay leaf, 1 green chilli, 1 tsp kasuri methi till they aromatic.
+Further add ½ onion petals and ½ cubed capsicum.
+Fry till they shrink slightly. Do not cook completely; they should be crunchy.
+Keep onions and capsicum aside. Add ¼ tsp turmeric and ½ tsp chilli powder.
+Saute on low flame till the spices turn aromatic.
+Further add blended tomato-onion paste and mix well.
+In addition, add prepared kadai masala and 1 tsp salt. Adjust the masala to your taste.
+Mix well and cook for 5 minutes or more.
+Cook till the masala paste starts to release oil.
+Now add ½ to 1 cup water adjusting consistency as required.
+Add 12 cubes homemade paneer, 2 tbsp cream and mix gently. Do not break the paneer.
+Cover and simmer for 5 minutes or till paneer absorbs flavour.
+Furthermore, add ¼ tsp garam masala and 2 tbsp coriander leaves. Mix well.
+Finally, serve restaurant-style kadai paneer gravy hot with garlic naan or chapati.
+"
+
+                android:fontFamily="casual"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"/>
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n\nIf you have any doubts , Please message us and we will get back to you ASAP "
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etdoubt"
+                android:hint="Type Here ..."/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsend"
+                android:text="Send"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nor else, please feel free to call our chef .."
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALL"
+
+                />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Home Screen" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
